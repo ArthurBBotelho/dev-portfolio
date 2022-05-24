@@ -44,7 +44,7 @@
     margin: 2%;
     padding: 2%;
     border: solid 5px #000000;
-    height: 38em;
+    height: 770px;
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;
@@ -53,12 +53,12 @@
 .name {
     padding-right: 500px;
     font-weight: 900;
-    font-size: 90px;
+    font-size: 120px;
     font-style: italic;
 }
 
 .greetings {
-    padding-right: 460px;
+    padding-right: 800px;
     display: flex;
     align-items: baseline;
 }
@@ -99,8 +99,22 @@
 .About {
     background-color: #000000;
 
-    height: 600px;
+    height: 900px;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-column {
+    background-color: #000000;
+    margin: 5%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+
 }
 
 .title-about {
@@ -108,22 +122,36 @@
     margin: 2%;
     background-color: #000000;
     color: #b8b8b8;
-    font-size: 44px;
+    font-size: 52px;
+    font-style: italic;
 }
 
 .content-about {
+    width: 600px;
     margin: 2%;
     background-color: #000000;
     color: #b8b8b8;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+.myself {
+    margin: 4%;
+    margin-right: 250px;
+    border-radius: 3px;
+    height: 750px;
+    
 }
 
 .cv-download {
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 700;
 
-    width: 320px;
+    width: 400px;
     height: 61px;
     color: #000000;
     background-color: #ffa900;
