@@ -1,5 +1,5 @@
 * {
-    background-color: #b8b8b8;
+    background-color: #c7c7c7;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
@@ -20,7 +20,7 @@
 .navbar a {
     background-color: #000000;
     text-decoration: none;
-    color: #b8b8b8;
+    color: #c7c7c7;
 }
 
 .navbar a:hover {
@@ -64,12 +64,12 @@
 }
 
 .cta {
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 700;
 
     width: 210px;
     height: 61px;
-    color: #b8b8b8;
+    color: #c7c7c7;
     background-color: #000000;
     border-radius: 4px;
     margin-left: 5px;
@@ -99,10 +99,44 @@
 .About {
     background-color: #000000;
 
-    height: 400px;
+    height: 600px;
     width: 100%;
 }
 
+.title-about {
+    padding-top: 2%;
+    margin: 2%;
+    background-color: #000000;
+    color: #b8b8b8;
+    font-size: 44px;
+}
+
+.content-about {
+    margin: 2%;
+    background-color: #000000;
+    color: #b8b8b8;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.cv-download {
+    font-size: 30px;
+    font-weight: 700;
+
+    width: 320px;
+    height: 61px;
+    color: #000000;
+    background-color: #ffa900;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.cv-download:hover {
+    background-color: #b8b8b8;
+    color: #000000;
+    font-style: italic;    
+}
 
 
 /*--------------------SKILLS---------------------------*/
