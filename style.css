@@ -247,10 +247,55 @@ header {
 }
 
 .project-link {
-    margin: 2%;
-    height: 300px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.project1 {
+    margin: 2%;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.project2 {
+    margin: 2%;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.project3 {
+    margin: 2%;
+    font-size: 28px;
+    font-weight: 400;
 }
 
 /*--------------------CONTACT---------------------------*/
+
+#Contact {
+    margin: 6%;
+    height: 600px;
+
+}
+
+.contact-title {
+    margin: 2%;
+    font-size: 52px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.feedback-text {
+    margin: 2%;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.contact-container {
+    border: 2px #000000
+}
+
+/*--------------------CONTACT---------------------------*/
+
+footer {
+    height: 3em;
+}
