@@ -17,18 +17,18 @@
         <nav class="navbar">
             <div class="menu">
                 <ul class="list">
-                    <li><a href="http://127.0.0.1:5500/index.html.Home">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
         
     </header>
 
-    <section class="Home">
+    <section id="Home">
         <div class="name">ARTHUR <br> BOTELHO</div>
         <h1 class="greetings">Hi, my name is Arthur Botelho!<br> I am a self taught JavaScript developer</h1> 
         
@@ -38,7 +38,7 @@
         <button class="cta" onclick="send()">Hire me</button>
     </section>
 
-    <section class="About">
+    <section id="About">
         <div class="about-column">
             <h2 class="title-about">About myself</h2>
             <p class="content-about">
@@ -57,7 +57,7 @@
 
     </section>
 
-    <section class="Skills">
+    <section id="Skills">
         <h3 class="skill-title">Skill Set</h3> 
         <p class="skill-content">The skills I have learned over the years, not only as a developer, but also as a curious guy that is always trying something new,
              these are the ones I would like to work with!</p>
@@ -71,17 +71,19 @@
         </div>    
     </section>
 
-    <section class="Projects">
-        <h4>Projects</h4>
-        <p>These selection of projects is more than a collection of tools, 
+    <section id="Projects">
+        <h4 class="project-title">Projects</h4>
+        <p class="project-content">These selection of projects is more than a collection of tools, 
             these are the game changer to me as a developer.
         </p>
-        <a href="#">Project1</a>
-        <a href="#">Project2</a>
-        <a href="#">Project3</a>
+        <div class="project-link">
+            <a href="#">Project1</a>
+            <a href="#">Project2</a>
+            <a href="#">Project3</a>
+        </div>    
     </section>
 
-    <section class="Contact">
+    <section id="Contact">
         <p>I would love to have some feedback about my portfolio, 
             so go ahead and send me some sugestions on how to improve myself, 
             you're opinion is important to me!</p>
