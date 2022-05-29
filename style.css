@@ -52,7 +52,7 @@ header {
     margin: 2%;
     padding: 2%;
     border: solid 5px #000000;
-    height: 825px;
+    height: 860px;
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;
@@ -98,7 +98,7 @@ header {
     padding-right: 5px;
 }
 
-.Home i:hover {
+#Home i:hover {
     color: #ffa900;
 }
 
@@ -121,11 +121,9 @@ header {
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-
 }
 
 .title-about {
-    padding-top: 2%;
     margin: 2%;
     background-color: #000000;
     color: #b8b8b8;
@@ -144,14 +142,14 @@ header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    
 }
 
 .myself {
+    margin-top: 80px;
     margin: 4%;
     margin-right: 250px;
     border-radius: 3px;
-    height: 750px;
+    height: 800px;
     
 }
 
